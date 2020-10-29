@@ -1,0 +1,29 @@
+{
+  "name": "wswebsiteproject",
+  "version": "1.0.0",
+  "description": "Wulff Studios Website",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/tailwind.css -o _site/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarrellWulff/WSWebsiteProject.git"
+  },
+  "author": "WulffStudios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarrellWulff/WSWebsiteProject/issues"
+  },
+  "homepage": "https://github.com/DarrellWulff/WSWebsiteProject#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.1.0",
+    "postcss-import": "^13.0.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
