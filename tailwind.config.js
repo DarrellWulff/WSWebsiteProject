@@ -8,6 +8,11 @@ module.exports = {
     extend: {
       fontFamily:{
         'mainFont': ['Jost']
+      },
+      colors: {
+        twitterBlue: '#1DA1F2',
+        twitchPurple: '#9146FF',
+        youtubeRed: '#FF0000'
       }
     },
   },
